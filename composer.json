@@ -1,0 +1,23 @@
+{
+    "name": "symfonypress/symfonypress-app",
+    "description": "Standard application layout for SymfonyPress application",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josiah",
+            "email": "josiah@jjs.id.au"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfonypress/symfonypress": "~0.1",
+        "symfonypress/installer": "~0.1",
+        "wordpress/wordpress": "~3.5"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://raw.github.com/SymfonyPress/ComposerRepository/master/packages.json"
+        }
+    ]
+}

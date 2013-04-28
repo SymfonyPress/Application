@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "6cb3a59065fc3db7c4e65c404237b207",
+    "hash": "a06f63e8a6dd9088ee381f1e8f8bdc0f",
     "packages": [
         {
             "name": "psr/log",
@@ -259,20 +259,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SymfonyPress/SymfonyPress.git",
-                "reference": "505c4b3811f0def3a30a459c2953537f0f32ab24"
+                "reference": "ca7572a8bf15c35e0001336d207d8ce3d6987dad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SymfonyPress/SymfonyPress/zipball/505c4b3811f0def3a30a459c2953537f0f32ab24",
-                "reference": "505c4b3811f0def3a30a459c2953537f0f32ab24",
+                "url": "https://api.github.com/repos/SymfonyPress/SymfonyPress/zipball/ca7572a8bf15c35e0001336d207d8ce3d6987dad",
+                "reference": "ca7572a8bf15c35e0001336d207d8ce3d6987dad",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3,<6.0",
                 "symfony/http-kernel": ">=2.2,<3.0"
-            },
-            "require-dev": {
-                "composer/composer": ">=1.0,<2.0"
             },
             "type": "library",
             "extra": {
@@ -297,7 +294,7 @@
                 }
             ],
             "description": "Develop with the power of Symfony 2 for WordPress",
-            "time": "2013-04-28 18:40:40"
+            "time": "2013-04-28 19:54:10"
         },
         {
             "name": "wordpress/wordpress",
@@ -326,9 +323,9 @@
     "stability-flags": [
 
     ],
-    "platform": [
-
-    ],
+    "platform": {
+        "php": "~5.4"
+    },
     "platform-dev": [
 
     ]

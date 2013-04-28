@@ -1,6 +1,8 @@
 {
     "name": "symfonypress/symfonypress-app",
-    "description": "Standard application layout for SymfonyPress application",
+    "description": "SymfonyPress Application",
+    "type": "project",
+    "keywords": ["symfony", "wordpress"],
     "license": "MIT",
     "authors": [
         {

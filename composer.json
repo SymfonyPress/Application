@@ -21,6 +21,10 @@
     "repositories": [
         {
             "type": "composer",
+            "url": "http://wpackagist.org"
+        },
+        {
+            "type": "composer",
             "url": "https://raw.github.com/SymfonyPress/ComposerRepository/master/packages.json"
         }
     ],

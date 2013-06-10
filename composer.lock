@@ -44,6 +44,109 @@
             "time": "2012-12-21 11:40:51"
         },
         {
+            "name": "symfony/config",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/Config",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Config.git",
+                "reference": "844858f65a2927dd8ce6ac87e4a1541ec59ff71b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Config/zipball/844858f65a2927dd8ce6ac87e4a1541ec59ff71b",
+                "reference": "844858f65a2927dd8ce6ac87e4a1541ec59ff71b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/filesystem": ">=2.3,<3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Config\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Config Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-04-21 14:30:01"
+        },
+        {
+            "name": "symfony/dependency-injection",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/DependencyInjection",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/DependencyInjection.git",
+                "reference": "e886a2fe3e9161c573d45caba9e5d98ad450ac3f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/DependencyInjection/zipball/e886a2fe3e9161c573d45caba9e5d98ad450ac3f",
+                "reference": "e886a2fe3e9161c573d45caba9e5d98ad450ac3f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/config": ">=2.2,<2.4-dev",
+                "symfony/yaml": ">=2.0,<3.0"
+            },
+            "suggest": {
+                "symfony/config": "2.2.*",
+                "symfony/yaml": "2.2.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\DependencyInjection\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony DependencyInjection Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-04-21 12:26:17"
+        },
+        {
             "name": "symfony/event-dispatcher",
             "version": "dev-master",
             "target-dir": "Symfony/Component/EventDispatcher",
@@ -96,6 +199,53 @@
             "description": "Symfony EventDispatcher Component",
             "homepage": "http://symfony.com",
             "time": "2013-02-11 11:27:01"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/Filesystem",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Filesystem.git",
+                "reference": "d6cda54824e01e27370d630e92456de797a18adb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/d6cda54824e01e27370d630e92456de797a18adb",
+                "reference": "d6cda54824e01e27370d630e92456de797a18adb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Filesystem\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Filesystem Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-04-25 12:07:50"
         },
         {
             "name": "symfony/http-foundation",
@@ -259,16 +409,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SymfonyPress/SymfonyPress.git",
-                "reference": "ca7572a8bf15c35e0001336d207d8ce3d6987dad"
+                "reference": "5643a9653a7134a473cecb38d1b5cd6c12949a69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SymfonyPress/SymfonyPress/zipball/ca7572a8bf15c35e0001336d207d8ce3d6987dad",
-                "reference": "ca7572a8bf15c35e0001336d207d8ce3d6987dad",
+                "url": "https://api.github.com/repos/SymfonyPress/SymfonyPress/zipball/5643a9653a7134a473cecb38d1b5cd6c12949a69",
+                "reference": "5643a9653a7134a473cecb38d1b5cd6c12949a69",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3,<6.0",
+                "php": ">=5.4,<6.0",
+                "symfony/config": ">=2.2,<3.0",
+                "symfony/dependency-injection": ">=2.2,<3.0",
                 "symfony/http-kernel": ">=2.2,<3.0"
             },
             "type": "library",
@@ -294,7 +446,7 @@
                 }
             ],
             "description": "Develop with the power of Symfony 2 for WordPress",
-            "time": "2013-04-28 19:54:10"
+            "time": "2013-04-29 00:31:05"
         },
         {
             "name": "wordpress/wordpress",

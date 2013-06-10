@@ -51,20 +51,13 @@ class WordPressKernel extends SymfonyPressKernel
      */
     public function registerBundles()
     {
-        $bundles = parent::registerBundles();
+        $bundles = array_merge(
+            parent::registerBundles(),
+            [
+                // Add your bundles here
+            ]
+        );
 
-        return array();
-    }
-
-    /**
-     * Loads the container configuration
-     * 
-     * @param LoaderInterface $loader Configuration loader
-     * 
-     * @return void
-     */
-    public function registerContainerConfiguration(LoaderInterface $loader)
-    {
-        // $loader->load(__DIR__.'/config/config_'.$this->getEnvironment().'.yml');
+        return $bundles;
     }
 }

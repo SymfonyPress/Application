@@ -46,6 +46,7 @@
  * @var WordPressKernel
  */
 $kernel = new WordPressKernel('prod', false);
+$kernel->boot();
 
 // Database configuration
 if (!include_once __DIR__."/db-config.php") require_once __DIR__.'/db-config-sample.php';
